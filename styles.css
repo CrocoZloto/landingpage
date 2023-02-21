@@ -44,23 +44,23 @@ a {
   height: 20vw;
 }
 .box_right {
-    background-color: #cecfd257;  
-    color: rgba(255, 255, 255, 0.641);
+  background-color: #cecfd257;
+  color: rgba(255, 255, 255, 0.641);
 }
-h2.header1{
-    font-size: 48px;
-    font-weight: bold;
-    color: #F9FAF8;
+h2.header1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
 }
-p.header1{
-    font-size: 18px;
-    color: #e5e7eb;
-    font-weight: normal;
+p.header1 {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: normal;
 }
-button.signup{
-    background-color: #3882f6;
-    padding: 0.5vw 2vw;
-    border-radius: 0.5vw;
-    font-weight: bold;
-    /* aasdasd */
+button.signup {
+  background-color: #3882f6;
+  padding: 0.5vw 2vw;
+  border-radius: 0.5vw;
+  font-weight: bold;
+  /* aasdasdasdasd */
 }
