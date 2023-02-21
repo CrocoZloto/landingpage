@@ -6,6 +6,7 @@
   outline: 1px solid red;
   background-color: #1f2937;
   color: #f9faf8;
+  scroll-behavior: smooth;
 }
 
 nav.menu {
@@ -40,7 +41,7 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 20px 15%;
-  height: 20vw;
+  height: 31vw;
 }
 
 h2.header1 {
@@ -58,6 +59,7 @@ button.signup {
   padding: 0.5vw 2vw;
   border-radius: 0.5vw;
   font-weight: bold;
+  border-color: #3882f6;
 }
 .box_left {
   flex: 1 1 0px;
@@ -73,20 +75,58 @@ p.placeholder {
 /* NEXT SECTION */
 h2.info {
   text-align: center;
+  font-size: 36px;
   padding: 1.5vw;
-  color: #7c95b8;
+  color: #1f2937;
+  background-color: #cecfd2;
 }
-
-.box_container{
+.squares {
   display: flex;
-  justify-content: center;
-  flex-basis:;
-}
-.square{
-  width: 50px;
-  height:50px;
-  display: inline-flex;
   justify-content: space-between;
   align-items: center;
-
+  padding: 20px 25% 10%;
+  height: 20vw;
+  margin-bottom: -50px;
+  background-color: #cecfd2;
+}
+.square {
+  height: 150px;
+  width: 150px;
+  border: 6px solid #3882f6;
+  border-radius: 1vw;
+  background-color: #cecfd2;
+}
+p.description {
+  background-color: #cecfd2;
+  color: #47484873;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  text-align: center;
+  margin-top: 160px;
+}
+p.cite,
+blockquote,
+i {
+  background-color: grey;
+  color: rgba(255, 255, 255, 0.632);
+  text-align: center;
+  font-size: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15%;
+}
+cite,
+b {
+  background-color: grey;
+  color: rgba(255, 255, 255, 0.632);
+}
+b {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 40px;
+  padding: 20px 30%;
+  font-weight: bolder;
 }
