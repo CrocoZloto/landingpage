@@ -7,9 +7,7 @@
   background-color: #1f2937;
   color: #f9faf8;
 }
-header {
-  outline: 2px solid blue;
-}
+
 nav.menu {
   display: flex;
   justify-content: space-between;
@@ -32,6 +30,7 @@ a {
 .logo {
   font-size: 24px;
   cursor: pointer;
+  font-weight: bolder;
 }
 
 /* Next section */
@@ -43,10 +42,7 @@ a {
   padding: 20px 15%;
   height: 20vw;
 }
-.box_right {
-  background-color: #cecfd257;
-  color: rgba(255, 255, 255, 0.641);
-}
+
 h2.header1 {
   font-size: 48px;
   font-weight: bold;
@@ -62,4 +58,35 @@ button.signup {
   padding: 0.5vw 2vw;
   border-radius: 0.5vw;
   font-weight: bold;
+}
+.box_left {
+  flex: 1 1 0px;
+}
+p.placeholder {
+  background-color: #cecfd248;
+  color: rgba(255, 255, 255, 0.408);
+  flex: 1 1 0px;
+  padding: 71px 2vw;
+  text-align: center;
+}
+
+/* NEXT SECTION */
+h2.info {
+  text-align: center;
+  padding: 1.5vw;
+  color: #7c95b8;
+}
+
+.box_container{
+  display: flex;
+  justify-content: center;
+  flex-basis:;
+}
+.square{
+  width: 50px;
+  height:50px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
