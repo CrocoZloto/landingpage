@@ -5,7 +5,6 @@
   padding: 0;
   background-color: #1f2937;
   color: #f9faf8;
-  outline: 1px solid red;
 }
 
 nav.menu {
@@ -14,6 +13,8 @@ nav.menu {
   align-items: center;
   padding: 20px 15%;
   
+
+  
 }
 
 li {
@@ -21,6 +22,7 @@ li {
   text-decoration: none;
   justify-content: space-between;
   padding: 0 5vw;
+
 }
 a {
   font-size: 20px;
@@ -30,9 +32,10 @@ a {
 }
 
 .logo {
-  font-size: 36px;
+  font-size: 40px;
   cursor: pointer;
   font-weight: bolder;
+  
 }
 
 /* Next section */
@@ -181,4 +184,17 @@ footer{
   justify-content: center;
   align-items: center;
   font-size: 22px;
+}
+a.top{
+  display: block;
+  padding-left: 50%;
+  margin-top: 33px;
+  background-color: #ffffff;
+  color: black;
+  font-size: 80px;
+  font-weight: bold;
+}
+a.top:hover{
+  color: #3882f6;
+  transition: 300ms;
 }
