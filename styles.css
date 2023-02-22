@@ -3,10 +3,9 @@
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  outline: 1px solid red;
   background-color: #1f2937;
   color: #f9faf8;
-  scroll-behavior: smooth;
+  outline: 1px solid red;
 }
 
 nav.menu {
@@ -14,7 +13,9 @@ nav.menu {
   justify-content: space-between;
   align-items: center;
   padding: 20px 15%;
+  
 }
+
 li {
   display: inline-flex;
   text-decoration: none;
@@ -29,7 +30,7 @@ a {
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 36px;
   cursor: pointer;
   font-weight: bolder;
 }
@@ -39,20 +40,26 @@ a {
 .container1 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 20px 15%;
+  padding: 30px 15%;
   height: 31vw;
+
+  
 }
 
 h2.header1 {
   font-size: 48px;
   font-weight: bold;
   color: #f9faf8;
+  
+  
+  
 }
 p.header1 {
   font-size: 18px;
   color: #e5e7eb;
   font-weight: normal;
+  
+  
 }
 button.signup {
   background-color: #3882f6;
@@ -60,9 +67,12 @@ button.signup {
   border-radius: 0.5vw;
   font-weight: bold;
   border-color: #3882f6;
+  cursor: pointer;
+  
 }
 .box_left {
   flex: 1 1 0px;
+  
 }
 p.placeholder {
   background-color: #cecfd248;
@@ -78,7 +88,7 @@ h2.info {
   font-size: 36px;
   padding: 1.5vw;
   color: #1f2937;
-  background-color: #cecfd2;
+  background-color: white;
 }
 .squares {
   display: flex;
@@ -87,17 +97,17 @@ h2.info {
   padding: 20px 25% 10%;
   height: 20vw;
   margin-bottom: -50px;
-  background-color: #cecfd2;
+  background-color: white;
 }
 .square {
   height: 150px;
   width: 150px;
   border: 6px solid #3882f6;
   border-radius: 1vw;
-  background-color: #cecfd2;
+  background-color: white;
 }
 p.description {
-  background-color: #cecfd2;
+  background-color: WHITE;
   color: #47484873;
   font-weight: bold;
   display: flex;
@@ -109,8 +119,8 @@ p.description {
 p.cite,
 blockquote,
 i {
-  background-color: grey;
-  color: rgba(255, 255, 255, 0.632);
+  background-color: #EBE7EB;
+  color: rgba(0, 0, 0, 0.632);
   text-align: center;
   font-size: 36px;
   display: flex;
@@ -120,8 +130,8 @@ i {
 }
 cite,
 b {
-  background-color: grey;
-  color: rgba(255, 255, 255, 0.632);
+  background-color: #EBE7EB;
+  color: rgba(3, 3, 3, 0.632);
 }
 b {
   display: flex;
@@ -129,4 +139,46 @@ b {
   font-size: 40px;
   padding: 20px 30%;
   font-weight: bolder;
+}
+.contact{
+  height: 20vw;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px 15%;
+  
+}
+.frame{
+  display: flex;
+  padding: 50px 20%;
+  justify-content: space-between;
+  margin-top:7%;
+  border-radius: 1vw;
+  background-color: #3882f6;
+}
+h2.call, br, p.enroll, .signup2, .enroll{
+   background-color: #3882f6; 
+   
+}
+.signup2{
+  background-color: #3882f6;
+  padding: 0.5vw 2vw;
+  border-radius: 0.5vw;
+  font-weight: bold;
+  border-color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+h2.call{
+   font-size: 30px; 
+}
+p.enroll{
+  font-size: larger;
+}
+footer{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
 }
