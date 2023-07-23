@@ -1,1 +1,1 @@
-alert("Welcome! This Website is in Development. Some content may be broken :(")
+alert("Welcome! This Website is under the Development. Some content may be broken :(")
